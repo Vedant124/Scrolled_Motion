@@ -1,0 +1,21 @@
+@media (max-width:600px) {
+    @font-face {
+        font-family: head;
+        src: url(./Heading-Now-Variable.ttf);
+    }
+    #page1 {
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+    }
+    #page1 h1 {
+        font-size:90vw;
+        color: #fff;
+        font-family: head;
+        font-weight: 60;
+        white-space: nowrap;
+        font-stretch: 100%;
+        text-transform: uppercase;
+        padding: 0px 30px ;
+    } 
+}
